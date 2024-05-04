@@ -13,6 +13,7 @@
   "scripts": {
     "dev": "bun run format && bun run build && serve",
     "build": "bun run format && esbuild src/main.js --bundle --outfile=dist/build.js",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "start": "bun run build && serve"
   }
 }
