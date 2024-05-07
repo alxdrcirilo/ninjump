@@ -6,7 +6,7 @@ install: ## Install dependencies
 update: ## Update dependencies
 	bun update
 
-clean: ## Cleam up the project
+clean: ## Clean up the project
 	rm -rf node_modules dist
 
 build: ## Build project
