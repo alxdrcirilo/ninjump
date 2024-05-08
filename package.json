@@ -2,12 +2,14 @@
   "name": "ninjump",
   "module": "index.js",
   "type": "module",
+  "homepage": "https://alxdrcirilo.github.io/ninjump",
   "devDependencies": {
     "esbuild": "^0.20.2",
     "prettier": "^3.2.5",
     "serve": "^14.2.1"
   },
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "kaboom": "^3000.1.17"
   },
   "scripts": {
